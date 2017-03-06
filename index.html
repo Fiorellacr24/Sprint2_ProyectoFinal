@@ -10,9 +10,9 @@
 
 <div class="dropdown">Hola
 	<button onclick="mostrarDropdown()" class="dropbtn">&#9776;</button>
-	<div id="myDropdown" class="dropdown-content" style="right:0">
-		<a href="#">Perfil</a>
-		<a href="#l">Salir</a>
+	<div id="myDropdown" class="dropdown-content">
+		<a href="perfil.html">Perfil</a>
+		<a href="salir.html">Salir</a>
 	</div>
 </div>
 	
@@ -28,10 +28,11 @@
 	<h4><b>Temas</b></h4>
 </div>
 <div>
-	<button type=submit>Sprint1</button>
-	<button type=submit>Sprint2</button>
-	<button type=submit>Sprint3</button>
+	<input type="button" value="Sprint1" onClick="mostrar1()">
+	<input type="button" value="Sprint2" onClick="mostrar2()">
+	<input type="button" value="Sprint3" onClick="mostrar3()">
 </div>
-	<script ></script>
+	<div id="mSprint2"></div>
+	<script type="text/javascript" src = "assets/js/app.js"> </script>
 </body>
 </html>
